@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 10;
+    border: 0;
+    
+}
+body{
+    background-color: #CBECFB;
+    font-family: inherit;
+}
+.container{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.box-infos{
+    background-color: #95D3FA;
+    padding: 20px;
+    border-radius: 20px ; 
+    margin: 5px;
+}
+
+.titulos{
+    margin: 10px 10px 0px 10px;
+}
+
+.textos{
+    margin-top: 20px;
+}
+
+.imagens{
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#button{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+    margin-top: 10px;
+    margin-left: 335px;
+    background-color: #CBECFB;
+    border-radius: 15px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+
+/*A PARTIR DAQUI = css utilizado para pagina 2*//*css utilizado para pagina 2*//*css utilizado para pagina 2*/
+
+.titulos1{
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+.imagens1{
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 400px;
+    align-items: center;
+}
+
+.destinos{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.indicacao{
+    font-size: 15px;
+}
+
+.textos1{
+    text-align: center;
+    background-color: #CBECFB;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.divdestinos{
+    text-align: center;   
+}
+
+.titulo_table{
+    background-color: #7DCAFA;
+    border-radius: 5px;
+}
+* .tabela *{
+    border: 1px ;
+    text-align: center;
+    padding: 4px;
+    align-items: center;
+}
+
+td{
+    background-color: #CBECFB;
+    border-radius: 5px;
+}
+
+table{
+    width: 50%;
+    height: 30%;
+}
