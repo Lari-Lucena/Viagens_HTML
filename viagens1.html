@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -100,9 +100,54 @@
                             <td>Sicilia</td>
                             <td>R$ 2.000,00</td>
                         </tr>
-                    </table>
+                    </table><br>
+                    <div> 
+                        <a class="botao" href="form.html"><b>Comprar passagens</b></a>
+                        <a class="botao1" onclick="calcular()"><b>Fazer Cotação</b></a>
+                    </div>
                 </div>
         </div>
     </div>
+    <script>
+        function calcular(){
+            var diaria;
+            var pais;
+            var result;
+            
+
+            pais = window.prompt(`
+            1 - Ilhas Maldivas
+            2 - Nova York
+            3 - Amsterdam
+            4 - Paris
+            5 - Sicilia
+
+            Em Qual país deseja se hospedar?`);
+
+            diaria = window.prompt(`Quantas noites deseja?`);
+
+          if(pais == 1){
+                result = diaria * 15000;
+            }
+            
+            if(pais == 2){
+                result = diaria * 5000;
+            }
+            
+            if(pais == 3){
+                result = diaria * 1000;
+            }
+            
+            if(pais == 4){
+                result = diaria * 7000;
+            }
+            
+            if(pais == 5){
+                result = diaria * 2000;
+            } 
+            
+            result = window.alert(`Valor total das diárias: R$${result}`); 
+        }
+    </script>
 </body>
 </html>
